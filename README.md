@@ -71,6 +71,7 @@ napster_p2p_json/
 ✅ Arquivo 'musica.mp3' baixado com sucesso.
 ```
 📌 Melhorias futuras
+```
 🔒 Criptografia com SSL (TLS)
 
 🆔 Autenticação de peers
@@ -80,6 +81,7 @@ napster_p2p_json/
 ✅ Verificação de integridade com hash (SHA256)
 
 🎨 Interface gráfica (Tkinter, PyQt ou Web)
+```
 
 ### ⚖️ Licença
 Distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
