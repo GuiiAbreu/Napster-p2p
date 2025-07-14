@@ -1,0 +1,5 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.log
+server_data.json
