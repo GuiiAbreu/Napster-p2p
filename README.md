@@ -22,25 +22,29 @@ Sistema P2P inspirado no modelo clássico do Napster, que permite:
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
+```
 
 ### 2. Preparar estrutura do projeto
-```bash
+```bash```
 python setup_project.py
 Isso criará as pastas public/, downloads/ e arquivos de exemplo.
 
 ### 3. Rodar o servidor
 ```bash
 python run_server.py
+```
 
 ### 4. Rodar um ou mais clientes (em outro terminal)
 ```bash
 python run_client.py
+```
 
 💬 Comandos do cliente
 ```yaml
 1: search <termo>            → Busca arquivos no servidor
 2: download <arquivo> <ip>   → Baixa arquivo de outro peer
 3: quit                      → Sai da rede
+```
 
 📁 Estrutura do projeto
 ```php
@@ -55,15 +59,16 @@ napster_p2p_json/
 ├── downloads/                 # Arquivos recebidos de outros peers
 ├── LICENSE                    # Licença do projeto
 └── README.md                  # Este arquivo
+```
 
 🧪 Exemplo de uso
 ```bash
-
 > search musica
 1. musica.mp3 (32700 bytes) - 192.168.1.12
 
 > download musica.mp3 192.168.1.12
 ✅ Arquivo 'musica.mp3' baixado com sucesso.
+```
 📌 Melhorias futuras
 🔒 Criptografia com SSL (TLS)
 
