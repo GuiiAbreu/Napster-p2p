@@ -25,9 +25,10 @@ venv\Scripts\activate     # Windows
 ```
 
 ### 2. Preparar estrutura do projeto
-```bash```
+```bash
 python setup_project.py
 Isso criará as pastas public/, downloads/ e arquivos de exemplo.
+```
 
 ### 3. Rodar o servidor
 ```bash
